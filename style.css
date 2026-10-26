@@ -1,0 +1,357 @@
+    *{
+        background-color: lightgray;
+        margin: 0px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        gap: 10vw;
+        font-size: 18px;
+        height: 60px;
+        padding: 5px;
+    }
+    .first{
+        display: flex;
+        align-items: center;
+        width: 20vw;
+        gap: 0px;
+        background-color: white;
+        margin-left: 5px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        background-color: white;
+    }
+    input{
+        width: 250px;
+        height: 25px;
+        border-radius: 20px;
+        border-style: none;
+    }
+    .second{
+        display: flex;
+        list-style-type: none;
+        background-color: white;
+        justify-content: space-around;
+        align-items: center;
+        width: 50vw;
+    }
+    .icons{
+        width: 40px;
+    }
+    #icon4{
+        width: 30px;
+    }
+    #icon3{
+        width: 30px;
+    }
+    #icon5{
+        width: 30px;
+    }
+    #icon2{
+        width: 45px;
+    }
+    .messages{
+        width: 30px;
+        border-radius: 50%;
+    }
+    .third{
+        display: flex;
+        list-style-type: none;
+        background-color: white;
+        width: 30vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container{
+        /* background-color: blue; */
+        display: flex;
+        /* gap: 30px; */
+        height: 600px;
+        margin-top: 20px;
+    }
+    .one{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 5px;
+        margin: 5px;
+        font-size: 18px;
+        height: 640px;
+    }
+    .two{
+        width: 60%;
+        height: 655px;
+    }
+    .three{
+        width: 20%;
+        height: 655px;
+        background-color: lightgray;
+        margin-top: 15px;
+    }
+    /* .one,.two,.three{
+        border: 2px solid black;
+        
+    } */
+    li{
+        list-style-type: none;
+        background-color: white;
+    }
+    .seeMore{
+        background-color:rgb(160, 159, 159);
+        border-radius: 5px;
+        height: 30px;
+        text-align: center;
+    }
+    hr{
+        display: flex;
+        height: 1px;
+        width: 50px;
+        align-self: stretch;
+        border: 2px solid black;
+    }
+    .first_box{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    .box1,.box2,.box3,.box4,.box5{
+        border: 2px solid black;
+        width: 15%;
+        height: 150px;
+        border-radius: 5px;
+    }
+    .profile{
+        width: 40px;
+        border-radius: 50%;
+    }
+    .followers{
+        width: 40px;
+        border-radius: 50%;
+        height: auto;
+    }
+    .one_one{
+        display: flex;
+        justify-content: start;
+        padding: 15px;
+        gap: 10px;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .second_box{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0px 0px 65px;
+        width: 800px;
+        /* height: 200px; */
+        background-color: white;
+        border-radius: 10px;
+    }
+    .second_one{
+        display: flex;
+        justify-content: space-around;
+        height: 30px;
+        align-items: center;
+        background-color: white;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        padding-left: 0px;
+    }
+    .enter_idea{
+        width: 85%;
+        height: 35px;
+        border-radius: 10px;
+        border-style: none;
+    }
+    .second_one li{
+        background-color: white;
+    }
+    .third_box{
+        width: 800px;
+        margin: 15px 0px 0px 65px;
+        background-color: white;
+        border-radius: 10px;
+        height: 405px;
+        /* padding: 10px; */
+    }
+    .freedom{
+        width: 800px;
+        height: 250px;
+        padding-left: 0px;
+    }
+    .count{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        margin-top: 0px;
+    }
+    .count p{
+        background-color: white;
+    }
+    .countImg{
+        width: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .countStart{
+        display: flex;
+        padding: 0px 10px 0px 10px;
+        background-color: white;
+    }
+    .reactions{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+        background-color: white;
+    }
+    .img_name{
+        display: flex;
+        height: 60px;
+        gap: 10px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .img_name2{
+        display: flex;
+        height: 60px;
+        gap: 10px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .fourth_box{
+        width: 800px;
+        margin: 15px 0px 0px 65px;
+        background-color: white;
+        border-radius: 10px;
+        height: 95px;
+    }
+    .fourth_box p{
+        background-color: white;
+        padding: 3px;
+    }
+    .name_status{
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        background-color: white;
+    }
+    .logo{
+        border-radius: 150px;
+        background-color: pink;
+    }
+    .one li{
+        background-color: lightgray;
+    }
+    #para{
+        background-color: white;
+        /* padding: 10px; */
+    }
+    .profile_img{
+        width: 40px;
+        border-radius: 50%;
+    }
+    .profilePic{
+        display: flex;
+        gap: 10px;
+    }
+    .profileInfo{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .top h4{
+        color: blue;
+    }
+    .sana_pic, .rohan_pic{
+        width: 70px;
+        border-radius: 50%;
+    }
+    .sana, .rohan{
+        display: flex;
+        gap: 10px;
+    }
+    .confirm, .delete{
+        width: 70px;
+        border-radius: 5px;
+        padding: 5px;
+        border-style: none;
+    }
+    .confirm{
+        background-color: rgb(68, 82, 233);
+        color: white;
+    }
+    .thirdOne{
+        background-color: white;
+        height: 200px;
+        border-radius: 10px;
+        
+    }
+    .thirdOne .top,
+    .thirdOne .friend_request,
+    .thirdOne .sana,
+    .thirdOne .rohan,
+    .thirdOne .frnd_info,
+    .thirdOne .frnd_buttons,
+    .thirdOne p,
+    .thirdOne h4,
+    .thirdOne h3 {
+    background-color: white;
+    }
+    .friend_request{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+        border-radius: 10px;
+        height: 190px;
+    }
+    .sana{
+        margin-top: 5px;
+    }
+    .thirdTwo{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .thirdTwo h3,
+    .thirdTwo button,
+    .thirdTwo li,
+    .thirdTwo .contact{
+        background-color: white;
+    }
+    .thirdTwo h3{
+        border-radius: 10px;
+    }
+    #endSeeMore{
+        height: 30px;
+        margin: 5px;
+        background-color: lightgray;
+    }
+    .contactPic{
+        width: 40px;
+        border-radius: 50%;
+    }
+    .contact{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
